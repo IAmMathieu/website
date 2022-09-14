@@ -1,26 +1,37 @@
-html,
-body {
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+html, body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: 'Orbitron', sans-serif;
+  position: relative;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
 }
 
-* {
-  box-sizing: border-box;
+/* Track */
+::-webkit-scrollbar-track {
+  background: #003865;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #EF5B0C;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: hsla(21, 90%, 49%, 75%);
 }

@@ -1,0 +1,17 @@
+.cardSection {
+  height: 100vh;
+  background-color: #003865;
+
+}
+
+.cardHolder {
+  height: 100%;
+  overflow-y: hidden;
+  z-index: 3;
+  max-width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-evenly;
+  column-gap: 50px;
+}

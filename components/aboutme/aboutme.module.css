@@ -1,0 +1,23 @@
+.aboutMeSection {
+    height: 100%;
+    width: 100vw;
+    background-color: #eee;
+    inset: 0;
+  }
+
+  .aboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 75vw;
+    margin: 0 auto;
+    white-space: wrap;
+    font-size: min(3rem, 3vw);
+    font-weight: bold;
+    color: #003865;
+  }
+
+  .aboutMe span {
+    color: #ef5b0c;
+  }
